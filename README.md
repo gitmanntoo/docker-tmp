@@ -2,7 +2,8 @@
 
 ## Quick Start
 
-Run: `sh run-it.sh <data-directory-path>`
+Run from Docker Hub: `docker run -it --rm -v <data-directory-path>:/data dockmann/tmp:latest`
+Run from script: `sh run-it.sh <data-directory-path>`
 
 **NOTE:** If you do not pass a `<data-directory-path>` then the container will be started with a `data` directory in the current directory.
 
