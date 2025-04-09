@@ -24,3 +24,13 @@ Mount a local `data` directory to `/data`.
 
 Requires `docker` to be installed.
 - [Install Docker Engine](https://docs.docker.com/engine/install/)
+
+## gpg cheat sheet
+
+```shell
+# import key
+gpg --import <key-file>
+
+# decrypt file
+gpg -d <file-name>
+```
